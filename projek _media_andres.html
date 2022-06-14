@@ -1,0 +1,55 @@
+<html>
+-->
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<head>
+<!-- Judul untuk Browser -->
+<title>Media Pembelajaran </title>
+</head>
+
+<body>
+<style>
+body{background-image:url(img/Latar_2.jpg)
+    ;background-color:#1e1e1e;background-repeat:no-repeat;background-size:100% 100%;}
+h1{border-bottom:1px solid #97999A;margin:0;color:#fefefe;font-weight:700;}
+body{font-family: 'Quicksand', sans-serif;padding: 25px}
+#geser{opacity:.8;color:#ffffff;margin-top:12px;}
+@keyframes leaves {0% {transform: scale(1.0);} 100% {transform: scale(.8);}}
+#lope{animation: leaves 1s ease-in-out infinite alternate;-webkit-animation: leaves 1s ease-in-out infinite alternate;}
+
+.scrollImage{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center; margin:2em 0; position:relative;left:-7.5px;width:calc(100% + 15px)} .scrollImage > *{border-radius:10px;width:calc(33.333% - 15px); margin:0 7.5px 15px}
+.scrollImage p{height:30vh;background:#FFFFFF;font-size:4vw;font-weight:700;display:flex;flex-wrap:nowrap;text-align:center;align-items:center;justify-content:center;}
+.scrollImage{flex-wrap:nowrap;justify-content:flex-start;position:relative;width:calc(100% + 0px);left:-20px;padding:0 20px; overflow-y:hidden;overflow-x:scroll;scroll-behavior:smooth;scroll-snap-type:x mandatory; -ms-overflow-style:none;-webkit-overflow-scrolling:touch} 
+.scrollImage > *{display:block;flex-shrink:0; width:90%; margin:0 15px 0 0; scroll-snap-align:center} .scrollImage > *:last-child{margin-right:0} .scrollImage:after{content:'';display:block;flex-shrink:0; align-self:stretch;padding-left:20px}
+
+/* Teks Ganjil */.scrollImage p:nth-child(odd){color:#0B1600;}
+/* Teks Genap */.scrollImage p:nth-child(even){color:#000D8A;}
+#wrn1{color:#C600C3} #wrn2{color:#3D7A00}
+
+.lovein{margin-left:5px;display:flex;align-items:center;justify-content:center;transition:all .1s ease;}
+.lovein:hover, .scrollImage p img:hover{transition:all .1s ease;transform: scale(1.2);}
+</style>
+
+<h1>Tema 7 Subtema 3 Pembelajaran 1 </h1>
+<p id="geser">Silahkan geser..</p>
+
+<!-- Ucapan -->
+<div class='scrollImage'>
+    <p><a href="projek_media/pembukaan.html">Pembukaan<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/cerita_nonfiksi.html">Cerita Non-fiksi<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/materi_gaya.html">Materi gaya<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/gaya_otot.html">Gaya Otot<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/gaya_gravitasi.html">Gaya Gravitasi<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/gaya_gesek.html">Gaya Gesek<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a>
+    <p><a href="projek_media/gaya_pegas.html">Gaya Pegas<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/gaya_magnet.html">Gaya Magnet<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="projek_media/gaya_listrik.html">Gaya Listrik<img style="margin-left:10px;" src="img/Latar_1.jpeg" height="50" /></a></p>
+    <p><a href="Soal_evaluasi.html">Soal Evaluasi</a>
+    <p>Terima Kasih dan Selamat Siang Adik-Adik </p>
+
+</div>
+</body>
+</html>
